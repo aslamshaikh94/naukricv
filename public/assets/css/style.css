@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+html, body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.clrcyan {
+  color: #009688;
+}
+
+.bg_cyan {
+  background-color: #009688;
+}
+
+.white {
+  color: #fff;
+}
+
+.gray {
+  color: #757575;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.about_user {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about_user .about_me {
+  position: relative;
+  margin: -15px;
+  margin-bottom: 15px;
+}
+.about_user .about_me h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+}
+.about_user .user_details section {
+  padding: 15px;
+}
+.about_user .user_details section + section {
+  border-top: 1px solid #eee;
+}
+.about_user .user_details .user_info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.about_user .user_details .user_info li {
+  padding: 0;
+  color: #757575;
+}
+.about_user .user_details .user_info li + li {
+  margin-top: 15px;
+}
+.about_user .user_details .user_info li i {
+  font-size: 18px;
+  color: #009688;
+}
+.about_user .user_details .progress_group {
+  width: 45%;
+  color: #757575;
+  margin-bottom: 10px;
+}
+.about_user .user_details .progress_group .progress, .about_user .user_details .progress_group .progress-bar {
+  border-radius: 1rem;
+  height: 1.1rem;
+}
+.about_user .user_details .progress_group .progress .progress-bar, .about_user .user_details .progress_group .progress-bar .progress-bar {
+  background-color: #009688;
+}
+
+.details {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+}
+.details + .details {
+  margin-top: 20px;
+}
+
+.details_item {
+  padding-top: 10px;
+}
+.details_item + .details_item {
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+}
+.details_item .current {
+  padding: 0.2rem 0.5rem;
+  color: #fff;
+  background-color: #009688;
+  border-radius: 4px;
+}
+
+@media (max-width: 769px) {
+  .aboutme {
+    margin-top: 20px;
+  }
+}
+.footer {
+  position: relative;
+  margin-top: 20px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #20232a;
+}
+
+/* Made with love by Mutiullah Samim*/
+.medium {
+  font-weight: 500;
+}
+
+.login .container {
+  height: 100%;
+  align-content: center;
+}
+.login .card {
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.login .social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+}
+.login .social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+.login .card-header h3 {
+  color: white;
+}
+.login .social_icon {
+  position: absolute;
+  right: 20px;
+  top: -5px;
+}
+.login .input-group-prepend span {
+  width: 50px;
+  background-color: #FFC312;
+  color: black;
+  border: 0 !important;
+}
+.login input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+.login .remember {
+  color: white;
+}
+.login .remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.login .login_btn {
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+}
+.login .login_btn:hover {
+  color: black;
+  background-color: white;
+}
+.login .links {
+  color: white;
+}
+.login .links a {
+  margin-left: 4px;
+}
+
+html, body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.clrcyan {
+  color: #009688;
+}
+
+.bg_cyan {
+  background-color: #009688;
+}
+
+.white {
+  color: #fff;
+}
+
+.gray {
+  color: #757575;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

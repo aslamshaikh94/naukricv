@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+@import "./_base";
+@import "./_about";
+@import "./_admin";
+@import "./_footer";
+@import "./_login";
+
+html, body {   
+  //font-family: 'Numans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+}
+
+.clrcyan{
+	color:$cyan
+}
+.bg_cyan{
+	background-color:$cyan
+}
+.white{
+	color:$white;
+}
+.gray{
+	color:$gray
+}
+.pointer{
+	cursor:pointer;
+}

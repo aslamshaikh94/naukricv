@@ -1,0 +1,98 @@
+$cyan: #009688; 
+$gray: #757575; 
+$white: #fff; 
+.clrcyan{
+	color:$cyan
+}
+.bg_cyan{
+	background-color:$cyan
+}
+.white{
+	color:$white;
+}
+.gray{
+	color:$gray
+}
+.pointer{
+	cursor:pointer;
+}
+.about_user{
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+	height: 100%;
+	.about_me{
+		position:relative;
+		margin:-15px;
+		margin-bottom:15px;
+		h2{
+			position:absolute;
+			bottom:10px;
+			left:10px;
+			margin:0;
+		}		
+	}
+	.user_details{
+		section{
+			padding:15px;
+			+ section{
+				border-top:1px solid #eee;
+			}
+		}
+		.user_info{
+			list-style:none;
+			margin:0;
+			padding:0;
+			li{
+				padding:0;
+				color:$gray;
+				+ li{
+					margin-top:15px;
+				}
+				i{
+					font-size:18px;
+					color:$cyan;					
+				}
+			}
+		}
+		.progress_group{
+			width:45%;
+			color:$gray;
+			margin-bottom:10px;
+			.progress, .progress-bar{
+				border-radius:1rem;
+				height:1.1rem;
+				.progress-bar{
+				 background-color:$cyan;
+				}
+			}				
+				
+			}
+	}
+
+}
+
+.details{
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+	padding:20px;
+	+ .details{
+		margin-top:20px;
+	}
+}
+
+	.details_item{
+		padding-top:10px;
+		+ .details_item{
+			border-top:1px solid #eee;
+			margin-top:10px;
+		}
+		.current{
+			padding:0.2rem 0.5rem;
+			color:$white;
+			background-color:$cyan;
+			border-radius: 4px;
+		}
+	}
+@media(max-width:769px){
+	.aboutme{
+		margin-top:20px;
+	}
+}
